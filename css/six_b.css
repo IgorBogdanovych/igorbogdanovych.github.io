@@ -1,0 +1,90 @@
+.sixth-block-main {
+  background-color: #3b404c;
+  padding-top: 84px;
+  height: 100%;
+}
+.block_menu p {
+  color: #fff;
+  font-family: Lora;
+  font-size: 33px;
+  margin-bottom: 0px;
+  margin-left: 90px;
+  height: 40px;
+  float: left;
+}
+.container-fluid {
+  width: 100%;
+}
+.blocks {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.left-side {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 65px;
+  margin-left: 90px;
+  width: 33.333333333333336%;
+}
+.left-side h2 {
+  padding: 0;
+  margin: 8px 0 8px 20px;
+}
+.left-side h3 {
+  padding: 0;
+  margin: 20px 20px 40px 20px;
+}
+.right-side {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 65px;
+  width: 66.666666666666667%;
+  margin-right: 90px;
+}
+.title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-top: 65px;
+  padding-bottom: 20px;
+  text-align: start;
+  text-transform: uppercase;
+}
+.inf {
+  color: #999999;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.form-group {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 400;
+}
+.form-group #name,
+.form-group #subject,
+.form-group #message {
+  background: transparent;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #b0b0b0;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+  width: 100%;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,145 @@
+.fifth-block-main {
+  background-color: #f5f6f8;
+}
+.headlines {
+  color: #3a3f4b;
+  font-family: 'Lora', serif;
+  font-size: 42px;
+  font-weight: 700;
+  padding: 73px 0 29px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hr-1 {
+  background-color: #00a5ff;
+  height: 4px;
+  margin: 0 auto;
+  width: 10%;
+}
+.hr-2 {
+  border-top: 1px solid #6a6a6a;
+  width: 10%;
+  margin: 0 auto;
+}
+.navbar-nav2 {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+.navbar-nav2 > li {
+  display: inline-block;
+  float: none;
+}
+.navbar-nav2 > li a {
+  color: #999;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+.navbar-nav2 > li a:hover {
+  background-color: transparent;
+  color: #00a5ff;
+  text-decoration: underline;
+}
+.laywers {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 72px 0 125px 0;
+  text-align: center;
+  -webkit-perspective: 600;
+          perspective: 600;
+}
+.laywers > img {
+  padding: 10px 40px 0;
+  text-align: center;
+}
+.brand {
+  float: left;
+  padding: 20px 40px 0;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
+.brand:hover {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+.carousel-indicators {
+  bottom: 0;
+}
+.carousel-indicators li {
+  background-color: #999999;
+}
+.carousel-indicators .active {
+  background-color: #3a3f4b;
+}
+.carousel-caption {
+  color: #3a3f4b;
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 auto;
+  position: static;
+  width: 557px;
+}
+.carousel-image {
+  height: 135px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+}
+.carousel-image > img {
+  padding: 0 40px;
+}
+#myCarousel.carousel.slide {
+  padding-top: 59px;
+}
+.carousel-inner .item img {
+  margin: 0 auto;
+}
+.carousel-control {
+  color: #7c8ca0;
+}
+.carousel-control.right,
+.carousel-control.left {
+  background: none;
+}
+.notmain-image {
+  opacity: 0.4;
+  height: 108px;
+}
+.main-image {
+  height: 140px;
+}
+.linda {
+  color: #3a3f4b;
+  font-size: 18px;
+}
+.site {
+  color: #3a3f4b;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.row {
+  margin: 0;
+}

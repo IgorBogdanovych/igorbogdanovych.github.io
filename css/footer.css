@@ -1,0 +1,73 @@
+.fortopbutton {
+  text-align: center;
+}
+.topbutton {
+  background: #00a5ff;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 26px;
+  padding: 20px 25px 12px 25px;
+  text-align: center;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  -webkit-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+}
+.topbutton:hover {
+  color: #00a5ff;
+  background: #fff;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  -webkit-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+}
+.topbutton:focus {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+.topbutton:active {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+.footer-copyright {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.Nishant {
+  color: #999999;
+  font-family: "Montserrat";
+  font-size: 13px;
+  margin: 40px 0px 40px 0px;
+}
+.social-icons {
+  float: right;
+  padding-top: 40px;
+}
+.socialmediaicons {
+  padding-top: 30px;
+}
+.socialmediaicons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.socialmediaicons ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+.socialmediaicons ul li img {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  width: 30px;
+}

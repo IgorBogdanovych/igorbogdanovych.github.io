@@ -1,0 +1,112 @@
+.first-block-main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background: url("../images/bgr-image.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  width: 100%;
+}
+h1 {
+  color: #fff;
+  clear: both;
+  font-family: "Lora";
+  font-size: 58px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 218px;
+  text-align: center;
+  -webkit-text-decoration: bold;
+          text-decoration: bold;
+}
+h2 {
+  color: #fff;
+  font-size: 25px;
+  margin: 0;
+  padding-top: 34px;
+  text-align: center;
+}
+h3 {
+  color: #3a3f4b;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 18px 0 18px 0;
+}
+.logo {
+  float: left;
+  height: 38px;
+  margin: 10px;
+  width: 130px;
+}
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #00a5ff;
+  -webkit-transition: color .3s;
+  -o-transition: color .3s;
+  transition: color .3s;
+}
+.button1,
+.button2 {
+  background-color: #00a5ff;
+  -webkit-border-radius: 36px;
+          border-radius: 36px;
+  border: none;
+  -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 88px auto 150px;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+  width: 320px;
+}
+.button1:hover,
+.button2:hover {
+  background-color: #fff;
+  color: #00a5ff;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  -webkit-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+}
+.button1:focus,
+.button2:focus {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+.button2 {
+  text-transform: uppercase;
+}
